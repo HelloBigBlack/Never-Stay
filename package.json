@@ -1,0 +1,23 @@
+{
+  "name": "never-stay",
+  "version": "1.0.0",
+  "description": "一个突发奇想的小游戏",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloBigBlack/Never-Stay.git"
+  },
+  "author": "PowerZheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelloBigBlack/Never-Stay/issues"
+  },
+  "homepage": "https://github.com/HelloBigBlack/Never-Stay#readme",
+  "devDependencies": {
+    "electron": "^5.0.3"
+  }
+}
