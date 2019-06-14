@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" href="assets/css/index.css" />
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+	<!-- Insert this line after script imports -->
+	<script>if (typeof module === 'object') {window.jQuery = window.$ = module.exports;};</script>
+	<script type="text/javascript" src="assets/js/index.js"></script>
+</head>
+
+<body>
+	<canvas id="canvas" width="900" height="600" tabindex="0"></canvas>
+	<div id="score" class="score">分数：<span>0</span></div>
+	<div id="maxScore" class="maxScore">最高分数：<span>0</span></div>
+	<div>A:向左，D:向右，控制方块不要让小球触碰到底部 <button onclick="gameStart()">Start</button></div>
+</body>
+
 </html>
