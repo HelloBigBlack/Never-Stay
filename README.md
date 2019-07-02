@@ -1,6 +1,11 @@
-# never-stay
+# Never Stay
 
-> 一个突发奇想的小游戏
+#### 一个突发奇想的小游戏
+> 你能留住这个小球吗？
+> 
+> 放弃吧
+>
+> Let it go.
 
 ## Build Setup
 
