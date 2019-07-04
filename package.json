@@ -5,6 +5,7 @@
   "author": "郑能量!",
   "private": true,
   "main": "main.js",
+  "title": "Never Stay",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
