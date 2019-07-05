@@ -1,3 +1,4 @@
+
 # Never Stay
 
 #### 一个突发奇想的小游戏
@@ -30,3 +31,4 @@ npm run electron-start
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
