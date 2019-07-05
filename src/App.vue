@@ -4,7 +4,9 @@
     <div class="main-right">
       <div class="right-menu">
         <div class="menu">
-          <div class="menu-title">开始</div>
+          <div class="menu-title">初遇</div>
+          <div class="menu-title">生离</div>
+          <div class="menu-title">死别</div>
         </div>
       </div>
     </div>
